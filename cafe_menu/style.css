@@ -1,0 +1,97 @@
+h1,h2,p {
+    text-align: center;
+  }
+
+h1,h2 {
+    font-family: Impact,serif;
+}
+h1 {
+    margin-bottom:15px;
+    margin-top: 0px;
+    font-size: 40px;
+  }
+  h2 {
+    font-size:30px;
+  }
+.established {
+    font-style: italic;
+}
+
+hr {
+    border-color: brown;
+    background-color: brown;
+    height: 2px;
+}
+body {
+    padding: 20PX;
+    font-family: sans-serif;
+    background-image: url(https://cdn.freecodecamp.org/curriculum/css-cafe/beans.jpg);
+
+}
+
+.menu {
+    padding: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: burlywood;
+    width:80%;
+    max-width: 500px;
+}
+
+.dessert,
+.flavor {
+    width: 75%;
+    text-align:left;
+}
+
+.price {
+    width: 25%;
+    text-align: right;
+}
+
+.item p {
+    font-size: 18px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    display: inline-block;
+}
+
+.bottom-line {
+    margin-top: 25;
+  }
+
+  /* FOOTER */
+
+footer {
+    font-size: 14px;
+}
+
+/* type selector for the anchor tag that makes the link the same color no matter who clicks on it*/
+a {
+    color: black;
+  }
+/*when a user actually visits the site, the link would turn grey*/
+a:visited {
+    color: black;
+}
+/* mouse hover over the link, the link change color*/
+a:hover {
+    color: brown;
+}
+
+/*when the link gets clicked*/
+a:active {
+    color: brown;
+}
+
+.address {
+    margin-bottom: 5px;
+}
+
+/*coffee image*/
+
+.img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
